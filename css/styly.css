@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.pos{
+    color: #fff;
+}
+
+.house1{
+    margin: 30px;
+    box-sizing: content-box;
+}
+
+.roof{
+    position: static;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 200px solid red;
+}
+.f1{
+    position: static;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    z-index: 10;
+    margin: 0 45px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.window{
+    position: static;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    z-index: 20;
+    margin: 0 200px 10px;
+}
+.door{
+    position: static;
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    margin: -10px 10px;
+    z-index: 30;
+}
+
+.house4{
+    margin: 30px;
+}
+.roof4{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 200px solid red;
+    margin: 0;
+}
+.f4{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    z-index: 10;
+    margin: 0 45px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.window4{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    z-index: 20;
+    margin: 0 200px;
+}
+.door4{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    margin: 0;
+    z-index: 30;
+}
+
+
+.house5{
+    margin: 30px;
+}
+.roof5{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 200px solid red;
+    margin: 0;
+}
+.f5{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    z-index: 10;
+    margin: 200px 45px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.window5{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    z-index: 20;
+    margin: 0 200px;
+}
+.door5{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    margin: 150px 0;
+    z-index: 30;
+}
+
+
+.house2{
+    /*position: fixed;*/
+    margin: -500px 60%;
+}
+.roof2{
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 200px solid red;
+    margin: 0;
+}
+.f2{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    z-index: 10;
+    margin: 200px 45px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.window2{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    z-index: 20;
+    margin: 0 200px;
+}
+.door2{
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    margin: 150px 0;
+    z-index: 30;
+}
+
+.house3{
+    margin: 550px 30px 0;
+}
+.roof3{
+    position: sticky;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 200px solid red;
+    margin: 0 0 400px;
+    top: 50px;
+}
+.f3{
+    position: sticky;
+    top: 250px;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    z-index: 10;
+    margin: 200px 45px 0;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.window3{
+    position: sticky;
+    top: 270px;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    z-index: 20;
+    margin: 30px 270px 200px;
+}
+.door3{
+    position: sticky;
+    top: 30px;
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    margin: 150px 100px;
+    z-index: 30;
+}
